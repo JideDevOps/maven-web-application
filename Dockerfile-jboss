@@ -1,0 +1,3 @@
+FROM jboss/wildfly
+### Good stuff
+ADD target/*.war /opt/jboss/wildfly/standalone/deployments/
